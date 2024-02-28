@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",initial-scale="1.0">
+        <title>Timer</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+    <div class="container">
+        <div style="font-size: 30px; text-align: center; padding: 10px; margin-bottom: 5px;" id="Time"></div>
+        <h1>Timer</h1>
+
+        <div class="contents">
+            
+        <div class="inputs">
+            <input id="hours" type="number" placeholder="00h">
+            <input id="minutes" type="number" placeholder="00m" max="60" min="0">
+            <input id="seconds" type="number" placeholder="00s" max="60" min="0">
+        <div>
+            
+         <div class="buttons">
+             <button id="start-button">Start</button>
+             <button id="reset-button">Reset</button>
+             
+        </div> 
+           
+        </div>
+
+    </div>
+
+    <div><audio id="alarm-sound" src="bedside-clock.mp3" preload="auto"></audio></div>
+            
+    </body>
+</html>
